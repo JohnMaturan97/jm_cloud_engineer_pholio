@@ -7,7 +7,7 @@ export const Bio = {
     "Project Management",
   ],
   description:
-    "Generalizing Specialist with experience in cloud engineering, cloud-native development, cloud database engineering, and project management. He is data-driven and passionate about the future of innovation in the computer age.",
+    "Generalizing Specialist with experience in cloud engineering, cloud-native development, cloud database engineering, and project management. John is data-driven and passionate about the future of innovation in the computer age.",
   github: "https://github.com/JohnMaturan97",
   resume:
     "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
