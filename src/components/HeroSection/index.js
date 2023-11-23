@@ -1,9 +1,9 @@
-import React from 'react'
-import HeroBgAnimation from '../HeroBgAnimation'
-import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle,SocialMediaIcons,SocialMediaIcon, ResumeButton } from './HeroStyle'
-import HeroImg from '../../images/HeroImage.jpg'
+import React from 'react';
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
+import HeroImg from '../../images/HeroImage.jpg';
+import HeroBgAnimation from '../HeroBgAnimation';
+import { HeroBg, HeroContainer, HeroInnerContainer, HeroLeftContainer, HeroRightContainer, Img, ResumeButton, SocialMediaIcon, SocialMediaIcons, Span, SubTitle, TextLoop, Title } from './HeroStyle';
 
 const HeroSection = () => {
     return (
@@ -14,7 +14,7 @@ const HeroSection = () => {
                 </HeroBg>
                 <HeroInnerContainer >
                     <HeroLeftContainer id="Left">
-                        <Title>Hi, I am <br /> {Bio.name}</Title>
+                        <Title> {Bio.name}</Title>
                         <TextLoop>
                             I am a
                             <Span>
