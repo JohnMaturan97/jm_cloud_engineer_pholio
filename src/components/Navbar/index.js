@@ -14,7 +14,7 @@ const Navbar = () => {
       <NavbarContainer>
         <NavLogo to='/'>
           <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
-            <DiTerminal size="3rem" /> <Span>BornToCode</Span>
+            <DiTerminal size="2.75rem" /> <Span>BornToCode</Span>
           </a>
         </NavLogo>
         <MobileIcon>
