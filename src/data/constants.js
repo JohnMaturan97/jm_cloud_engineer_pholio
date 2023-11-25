@@ -395,6 +395,32 @@ export const projects = [
     github: "https://github.com/JohnMaturan97",
     webapp: "https://github.com/JohnMaturan97",
   },
+  {
+    id: 8,
+    title: "Test 3",
+    // date: "Jun 2023 - Jul 2023",
+    description:
+      "TBA",
+    image:
+      "https://media.giphy.com/media/W2q1ZNYbi1Kdwc9iLP/giphy.gif",
+      tags: ["TBA"],
+    category: "cloud engineer",
+    github: "https://github.com/JohnMaturan97",
+    webapp: "https://github.com/JohnMaturan97",
+  },
+  {
+    id: 9,
+    title: "Test 4",
+    // date: "Jun 2023 - Jul 2023",
+    description:
+      "TBA",
+    image:
+      "https://media.giphy.com/media/W2q1ZNYbi1Kdwc9iLP/giphy.gif",
+      tags: ["TBA"],
+    category: "cloud engineer",
+    github: "https://github.com/JohnMaturan97",
+    webapp: "https://github.com/JohnMaturan97",
+  },
 ];
 
 export const TimeLineData = [
