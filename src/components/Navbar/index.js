@@ -2,6 +2,7 @@ import { Close, CloseRounded } from '@mui/icons-material';
 import React from 'react';
 import { DiTerminal } from "react-icons/di";
 import { FaBars } from 'react-icons/fa';
+import { VscTerminal } from "react-icons/vsc";
 import { useTheme } from 'styled-components';
 import { Bio } from '../../data/constants';
 import { ButtonContainer, GitHubButton, MobileIcon, MobileLink, MobileMenu, MobileNavLogo, Nav, NavItems, NavLink, NavLogo, NavbarContainer, Span } from './NavbarStyledComponent';
@@ -14,7 +15,8 @@ const Navbar = () => {
       <NavbarContainer>
         <NavLogo to='/'>
           <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
-            <DiTerminal size="2.75rem" /> <Span>BornToCode</Span>
+            {/* <DiTerminal size="2.75rem" /> <Span>❮BornToCode∕❯</Span> */}
+            <VscTerminal size="1.85rem" /> <Span>BornToCode</Span>
           </a>
         </NavLogo>
         <MobileIcon>

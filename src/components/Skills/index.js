@@ -34,6 +34,7 @@ margin-top: 20px;
   @media (max-width: 768px) {
 margin-top: 12px;
       font-size: 32px;
+      margin-bottom: -1rem;
   }
 `;
 
@@ -41,9 +42,11 @@ export const Desc = styled.div`
     font-size: 18px;
     text-align: center;
     max-width: 600px;
+    margin-bottom: -1em;
     color: ${({ theme }) => theme.text_secondary};
     @media (max-width: 768px) {
-        font-size: 16px;
+      font-size: 16px;
+      margin-bottom: -1em;
     }
 `;
 
@@ -65,11 +68,11 @@ const Skill = styled.div`
   border-radius: 16px;
   padding: 18px 36px;
   @media (max-width: 768px) {
-    max-width: 400px;
+    max-width: 450px;
     padding: 10px 36px;
   }
   @media (max-width: 500px) {
-    max-width: 330px;
+    max-width: 350px;
     padding: 10px 36px;
   }
 

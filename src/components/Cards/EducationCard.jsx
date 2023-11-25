@@ -14,11 +14,9 @@ const Document = styled.img`
 `
 
 const Description = styled.div`
-    width: 100%;
     font-size: 15px;
     font-weight: 400;
     color: ${({ theme }) => theme.text_primary + 99};
-    margin-bottom: 10px;
     @media only screen and (max-width: 768px){
         font-size: 12px;
     }
@@ -37,11 +35,10 @@ const Card = styled.div`
     width: 650px;
     border-radius: 10px;
     box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
-    padding: 12px 16px;
+    padding: 1rem;
     justify-content: space-between;
     position: relative;
     overflow: hidden;
-    display: flex;
     flex-direction: column;
     gap: 12px;
     transition: all 0.3s ease-in-out;
@@ -68,7 +65,6 @@ const Card = styled.div`
 `
 
 const Top = styled.div`
-    width: 100%;
     display: flex;
     gap: 12px
 `
@@ -84,7 +80,6 @@ const Image = styled.img`
 `
 
 const Body = styled.div`
-    width: 100%;
     display: flex;
     flex-direction: column; 
 `
