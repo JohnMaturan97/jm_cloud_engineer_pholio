@@ -40,21 +40,21 @@ const Projects = ({ openModal, setOpenModal }) => {
             onClick={() => setToggle('web app')}
             active={toggle === 'web app'}
           >
-            WEB APP'S
+            CLOUD-NATIVE
           </ToggleButton>
           <Divider />
           <ToggleButton
             onClick={() => setToggle('cloud-native')}
             active={toggle === 'cloud-native'}
           >
-            CLOUD-NATIVE
+            CLOUD ENGINEERING
           </ToggleButton>
           <Divider />
           <ToggleButton
             onClick={() => setToggle('cloud engineer')}
             active={toggle === 'cloud engineer'}
           >
-            CLOUD ENGINEER
+            Full Stack Development
           </ToggleButton>
         </ToggleButtonGroup>
         <CardContainer>
