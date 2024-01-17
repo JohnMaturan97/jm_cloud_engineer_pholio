@@ -2,7 +2,7 @@ export const Bio = {
   name: "John Maturan",
   roles: ["Cloud Engineer", "Cloud-Native Eng"],
   description:
-    "John is a Generalizing Specialist with a background in Cloud Native Engineering, Cloud Database Engineering, and Project Management. He is data-driven and passionate about the future of innovation in the computer age.",
+    "John is a Generalizing Specialist with a background in Cloud Engineering, Cloud Database Engineering, and Project Management. He is data-driven and passionate about the future of innovation in the computer age. Currently, he applies his experience to roles in cloud computing and project management, continually enhancing his knowledge in the challenging field of Cloud Engineering.",
   github: "https://github.com/JohnMaturan97",
   resume:
     "https://drive.google.com/file/d/1z73wRo9Ny2brOVrzxfsrs4s5L4cjgI68/view?usp=sharing",
