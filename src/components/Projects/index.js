@@ -47,14 +47,14 @@ const Projects = ({ openModal, setOpenModal }) => {
             onClick={() => setToggle('cloud-native')}
             active={toggle === 'cloud-native'}
           >
-            CLOUD ENGINEERING
+            CLOUD-BASED
           </ToggleButton>
           <Divider />
           <ToggleButton
             onClick={() => setToggle('cloud engineer')}
             active={toggle === 'cloud engineer'}
           >
-            Full Stack Development
+            FULL STACK
           </ToggleButton>
         </ToggleButtonGroup>
         <CardContainer>
