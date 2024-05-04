@@ -25,30 +25,25 @@ export const skills = [
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Amazon_Lambda_architecture_logo.svg/1200px-Amazon_Lambda_architecture_logo.svg.png",
       },
       {
-        name: "S3",
-        image: "https://upload.wikimedia.org/wikipedia/commons/b/bc/Amazon-S3-Logo.svg",
-      },
-      {
-        name: "EFS",
-        image:
-          "https://seeklogo.com/images/A/amazon-elastic-file-system-logo-E7053CDC9F-seeklogo.com.png",
-      },
-      {
         name: "VPC",
         image:
           "https://static-00.iconduck.com/assets.00/networkingcontentdelivery-amazonvpc-internetgateway-icon-1969x2048-p71xl1rp.png",
+      },
+      {
+        name: "S3",
+        image: "https://upload.wikimedia.org/wikipedia/commons/b/bc/Amazon-S3-Logo.svg",
       },
       {
         name: "IAM",
         image: "https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/aws-cloud-security/control-access-with-aws-identity-and-access-management/images/3d5ecfeab35e8dfc1eb781f7880fafc9_99-c-15-ccc-fe-5-e-4-d-8-f-bcfc-193197-b-9-dc-7-b.png",
       },
       {
-        name: "DMS",
-        image: "https://www.gliffy.com/sites/default/files/image/2020-06/AWS-Database-Migration-Service_dark-bg.png",
+        name: "Systems Manager",
+        image: "https://allcode.com/wp-content/uploads/2023/05/aws-systems-manager-logo.png",
       },
       {
-        name: "TERRAFORM",
-        image: "https://miro.medium.com/v2/resize:fit:400/1*lG-hTnKrmpQO306772jGpg.png",
+        name: "DYNAMODB",
+        image: "https://static-00.iconduck.com/assets.00/aws-dynamodb-icon-1817x2048-1gi0rqbm.png",
       },
       {
         name: "RDS",
@@ -59,17 +54,52 @@ export const skills = [
         image: "https://dbdb.io/media/logos/amazon-aurora_IGQMXko.png",
       },
       {
-        name: "DYNAMODB",
-        image: "https://static-00.iconduck.com/assets.00/aws-dynamodb-icon-1817x2048-1gi0rqbm.png",
+        name: "Route 53",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSUZJF0bwIukH7jWRTeYrJgLPy_HIDy6WwkxIn75Qgxj8ktPWErGI6FJ6LpOBfHjRkX5o&usqp=CAU",
+      },
+      {
+        name: "Cloudfront",
+        image: "https://seeklogo.com/images/A/aws-cloudfront-logo-D475098A98-seeklogo.com.png",
+      },
+      {
+        name: "API Gateway",
+        image: "https://cdn.worldvectorlogo.com/logos/aws-api-gateway.svg",
+      },
+      {
+        name: "BEANSTALK",
+        image:
+          "https://pragmaticintegrator.files.wordpress.com/2016/08/aws_simple_icons_networking_amazonroute53-svg.png",
+      },
+      {
+        name: "CLOUDWATCH",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqKAosgVxDwiNya2ciiZUReyheG2XmJKDkopftg8_1dFbh0Y9WuYbmK65x6DIzpAxcXDw&usqp=CAU",
+      },
+      {
+        name: "CLOUDTRAIL",
+        image:
+          "https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2019/07/29/AWS-CloudTrail_light-bg@4x.png",
+      },
+      {
+        name: "TERRAFORM",
+        image: "https://miro.medium.com/v2/resize:fit:400/1*lG-hTnKrmpQO306772jGpg.png",
+      },
+      {
+        name: "CLOUDFORMATION",
+        image:
+          "https://uploads-ssl.webflow.com/5fa44156cdbcd019ca4c5da7/61cbd1b19527649b523ceb11_aws-cloudformation.png",
       },
       {
         name: "REDSHIFT",
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Amazon-Redshift-Logo.svg/109px-Amazon-Redshift-Logo.svg.png",
       },
       {
-        name: "Route 53",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSUZJF0bwIukH7jWRTeYrJgLPy_HIDy6WwkxIn75Qgxj8ktPWErGI6FJ6LpOBfHjRkX5o&usqp=CAU",
+        name: "DMS",
+        image: "https://www.gliffy.com/sites/default/files/image/2020-06/AWS-Database-Migration-Service_dark-bg.png",
       },
+      // {
+      //   name: "",
+      //   image: "",
+      // },
     ],
   },
   {
@@ -78,12 +108,12 @@ export const skills = [
       {
         name: "ECS",
         image:
-          "https://coralogix.com/wp-content/uploads/2020/01/AWS-ECS-1000X1000.png",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-GynARL6VwgC4tzyKeUyS16-G2xvnE5mTEEJ8ojthzGKE0tml_iEpExHqsaHV-jO5CZU&usqp=CAU",
       },
       {
         name: "EKS",
         image:
-          "https://static.wixstatic.com/media/ef1211_56117c1760d7401cbc6a3b8708eecdef~mv2.png/v1/fill/w_320,h_320,al_c/eks.png",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjwipdcQfU4AWBBmsAUjl-jIi82cSdgE0y6LZj_EVZIg&s",
       },
       {
         name: "FARGATE",
@@ -96,36 +126,12 @@ export const skills = [
           "https://miro.medium.com/v2/resize:fit:908/1*w4N8NNxnCo-qhADUe5BsGQ.png",
       },
       {
-        name: "SAM",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCISEZIvhB1ZT7ABceSdf0nG0jM2aqXb98X0w-jbZ8KPrjUYd6TPaFTZx9Cz8WDmhvw9Q&usqp=CAU",
+        name: "SNS",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5laaZl1Abk6wY-uDlDXIMj-sSLev01gvAQ59iPQFmmg&s",
       },
       {
-        name: "BEANSTALK",
-        image:
-          "https://pragmaticintegrator.files.wordpress.com/2016/08/aws_simple_icons_networking_amazonroute53-svg.png",
-      },
-      {
-        name: "CLOUDFORMATION",
-        image:
-          "https://uploads-ssl.webflow.com/5fa44156cdbcd019ca4c5da7/61cbd1b19527649b523ceb11_aws-cloudformation.png",
-      },
-      {
-        name: "API Gateway",
-        image: "https://cdn.worldvectorlogo.com/logos/aws-api-gateway.svg",
-      },
-      {
-        name: "CLOUDTRAIL",
-        image:
-          "https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2019/07/29/AWS-CloudTrail_light-bg@4x.png",
-      },
-      {
-        name: "CLOUDWATCH",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqKAosgVxDwiNya2ciiZUReyheG2XmJKDkopftg8_1dFbh0Y9WuYbmK65x6DIzpAxcXDw&usqp=CAU",
-      },
-      {
-        name: "Datadog",
-        image: "https://s3.amazonaws.com/awsmp-logos/datadoglogo.png",
+        name: "SQS",
+        image: "https://cloud-cdn.safe.com/fmehub/fmepackageversion/safe/amazon-sqs/item-logo/1693441586.png",
       },
       {
         name: "X-RAY",
@@ -135,6 +141,51 @@ export const skills = [
         name: "AWS developer tools",
         image:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXN2hMqDRODUattrRZ8oLdOJlgbWaQvP2mDBTbGaVV2pD3PQD1UZYuLQCZ4cd2p3m_yD8&usqp=CAU",
+      },
+      {
+        name: "EventBridge",
+        image: "https://coralogix.com/wp-content/uploads/2022/08/EventBridge_large.png",
+      },
+      {
+        name: "Secrets Manager",
+        image: "https://svgmix.com/uploads/196966-aws-secrets-manager.svg",
+      },
+      {
+        name: "Step Functions",
+        image: "https://cdn.worldvectorlogo.com/logos/aws-step-functions-1.svg",
+      },
+      {
+        name: "CDK",
+        image: "https://miro.medium.com/v2/resize:fit:512/1*jJtxMgwr3HW-HHXIqj67Hw.png",
+      },
+      {
+        name: "SAM",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCISEZIvhB1ZT7ABceSdf0nG0jM2aqXb98X0w-jbZ8KPrjUYd6TPaFTZx9Cz8WDmhvw9Q&usqp=CAU",
+      },
+      {
+        name: "K8s",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/1200px-Kubernetes_logo_without_workmark.svg.png",
+      },
+      {
+        name: "Docker",
+        image: "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-512.png",
+      },
+      {
+        name: "Jenkins",
+        image: "https://toppng.com/uploads/preview/jenkins-logo-11609365847mufysaivph.png",
+      },
+      {
+        name: "Ansible",
+        image: "https://banner2.cleanpng.com/20180423/spw/kisspng-ansible-openshift-red-hat-github-management-sina-weibo-5add9d1f5886d4.2575405615244731193626.jpg",
+      },
+      {
+        name: "SonarQube",
+        image: "https://micro-tech.com.vn/wp-content/uploads/2022/01/sonarQ.png",
+      },
+      {
+        name: "Datadog",
+        image: "https://s3.amazonaws.com/awsmp-logos/datadoglogo.png",
       },
     ],
   },
