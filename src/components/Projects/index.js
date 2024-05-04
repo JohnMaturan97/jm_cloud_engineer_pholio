@@ -37,25 +37,33 @@ const Projects = ({ openModal, setOpenModal }) => {
           </ToggleButton>
           <Divider />
           <ToggleButton
-            onClick={() => setToggle('web app')}
-            active={toggle === 'web app'}
+            onClick={() => setToggle('cloud engineer')}
+            active={toggle === 'cloud engineer'}
           >
-            CLOUD-NATIVE
+            CLOUD-ENG
           </ToggleButton>
           <Divider />
           <ToggleButton
             onClick={() => setToggle('cloud-native')}
             active={toggle === 'cloud-native'}
           >
-            CLOUD-BASED
+            CLOUD-NATIVE
           </ToggleButton>
           <Divider />
           <ToggleButton
-            onClick={() => setToggle('cloud engineer')}
-            active={toggle === 'cloud engineer'}
+            onClick={() => setToggle('DB engineer')}
+            active={toggle === 'DB engineer'}
+          >
+            DB-ENG
+          </ToggleButton>
+
+          <Divider />
+          <ToggleButton
+            onClick={() => setToggle('web app')}
+            active={toggle === 'web app'}
           >
             FULL STACK
-          </ToggleButton>
+          </ToggleButton> 
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === 'all'
