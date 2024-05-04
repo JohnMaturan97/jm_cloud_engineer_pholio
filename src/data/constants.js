@@ -5,11 +5,11 @@ export const Bio = {
     "Accomplished Cloud Engineer with specialized expertise in Cloud Database Engineering and a solid foundation in project management. Passionate about technological innovation, John excels in leveraging advanced AWS services, cloud infrastructure, networking, and security solutions in team-oriented environments.",
   github: "https://github.com/JohnMaturan97",
   resume:
-    "https://drive.google.com/file/d/1z73wRo9Ny2brOVrzxfsrs4s5L4cjgI68/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-  twitter: "https://twitter.com/RishavChanda",
-  insta: "https://www.instagram.com/rishav_chanda/",
-  facebook: "https://www.facebook.com/rishav.chanda.165/",
+    "https://drive.google.com/file/d/1GYPgMuTklj3p1lz8kg3wmiutHv92ic-c/view?usp=sharing",
+  linkedin: "https://www.linkedin.com/in/john-maturan/",
+  twitter: "https://www.linkedin.com/in/john-maturan/",
+  insta: "https://www.linkedin.com/in/john-maturan/",
+  facebook: "https://www.linkedin.com/in/john-maturan/",
 };
 
 export const skills = [
@@ -69,11 +69,6 @@ export const skills = [
       {
         name: "Route 53",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSUZJF0bwIukH7jWRTeYrJgLPy_HIDy6WwkxIn75Qgxj8ktPWErGI6FJ6LpOBfHjRkX5o&usqp=CAU",
-      },
-      {
-        name: "AWS developer tools",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXN2hMqDRODUattrRZ8oLdOJlgbWaQvP2mDBTbGaVV2pD3PQD1UZYuLQCZ4cd2p3m_yD8&usqp=CAU",
       },
     ],
   },
@@ -137,8 +132,9 @@ export const skills = [
         image: "https://img.stackshare.io/service/8202/AWS-X-Ray_4x.png",
       },
       {
-        name: "GITLAB",
-        image: "https://seeklogo.com/images/G/gitlab-logo-757620E430-seeklogo.com.png",
+        name: "AWS developer tools",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXN2hMqDRODUattrRZ8oLdOJlgbWaQvP2mDBTbGaVV2pD3PQD1UZYuLQCZ4cd2p3m_yD8&usqp=CAU",
       },
     ],
   },
@@ -419,40 +415,7 @@ export const projects = [
   },
   {
     id: 6,
-    title: "Test 1",
-    // date: "Jun 2023 - Jul 2023",
-    description: "TBA",
-    image: "https://media.giphy.com/media/W2q1ZNYbi1Kdwc9iLP/giphy.gif",
-    tags: ["TBA"],
-    category: "cloud engineer",
-    github: "https://github.com/JohnMaturan97",
-    webapp: "https://github.com/JohnMaturan97",
-  },
-  {
-    id: 7,
-    title: "Test 2",
-    // date: "Jun 2023 - Jul 2023",
-    description: "TBA",
-    image: "https://media.giphy.com/media/W2q1ZNYbi1Kdwc9iLP/giphy.gif",
-    tags: ["TBA"],
-    category: "cloud engineer",
-    github: "https://github.com/JohnMaturan97",
-    webapp: "https://github.com/JohnMaturan97",
-  },
-  {
-    id: 8,
-    title: "Test 3",
-    // date: "Jun 2023 - Jul 2023",
-    description: "TBA",
-    image: "https://media.giphy.com/media/W2q1ZNYbi1Kdwc9iLP/giphy.gif",
-    tags: ["TBA"],
-    category: "cloud engineer",
-    github: "https://github.com/JohnMaturan97",
-    webapp: "https://github.com/JohnMaturan97",
-  },
-  {
-    id: 9,
-    title: "Test 4",
+    title: "COMING SOON",
     // date: "Jun 2023 - Jul 2023",
     description: "TBA",
     image: "https://media.giphy.com/media/W2q1ZNYbi1Kdwc9iLP/giphy.gif",
