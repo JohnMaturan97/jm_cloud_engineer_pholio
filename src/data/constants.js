@@ -143,67 +143,67 @@ export const skills = [
     ],
   },
   {
-    title: "DB Engineering",
+    title: "Certifications & Badges",
     skills: [
       {
-        name: "REACT",
+        name: "DBS-C01",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+          "https://images.credly.com/size/340x340/images/885d38e4-55c0-4c35-b4ed-694e2b26be6c/image.png",
       },
       {
-        name: "ANGULAR",
+        name: "DVA-C02",
         image:
-          "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
+          "https://images.credly.com/size/340x340/images/b9feab85-1a43-4f6c-99a5-631b88d5461b/image.png",
       },
       {
-        name: "NEXT.JS",
+        name: "TFE-003",
         image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
+          "https://images.credly.com/size/340x340/images/85b9cfc4-257a-4742-878c-4f7ab4a2631b/image.png",
       },
       {
-        name: "TYPSCRIPT",
+        name: "SAA-C03",
         image:
-          "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
+          "https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png",
       },
       {
-        name: "CSS/SCSS",
+        name: "CLF-C02",
         image:
-          "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
+          "https://images.credly.com/size/340x340/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
       },
       {
-        name: "GIT",
+        name: "EKS",
         image:
-          "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
+          "https://images.credly.com/size/340x340/images/9bcbde6d-1754-4617-9337-124f7b10a6c2/image.png",
       },
       {
-        name: "MONGO",
+        name: "Compute",
         image:
-          "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
+          "https://images.credly.com/size/340x340/images/eba18772-5ecf-471b-b8af-dda79815b544/image.png",
       },
       {
-        name: "MYSQL",
+        name: "Migration Foundations",
         image:
-          "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
+          "https://images.credly.com/size/340x340/images/4163dc96-eec3-49c2-87b3-6a98172e160c/image.png",
       },
       {
-        name: "PGSQL",
+        name: "Architecting",
         image:
-          "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
+          "https://images.credly.com/size/340x340/images/519a6dba-f145-4c1a-85a2-1d173d6898d9/image.png",
       },
       {
-        name: "PYTHON",
+        name: "Networking Core",
         image:
-          "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
+          "https://images.credly.com/size/340x340/images/e75f222b-7f75-4d7b-8a6a-67d68aa59d62/image.png",
       },
       {
-        name: "JAVA",
+        name: "Serverless",
         image:
-          "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
+          "https://images.credly.com/size/340x340/images/e07c6cc4-b737-4d7e-8ce8-66b6b7a60367/image.png",
       },
       {
-        name: "NODE.JS",
+        name: "AWS DR",
         image:
-          "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
+          "https://images.credly.com/size/340x340/images/b8766b97-8362-4948-a08c-d4fbd2cda57c/image.png",
       },
     ],
   },
@@ -314,25 +314,22 @@ export const education = [
     id: 0,
     img: "https://yt3.googleusercontent.com/ytc/APkrFKYpZIQZcY08KJuX7wVxxpzl1JBWparAN9_hcNJ_eA=s900-c-k-c0x00ffffff-no-rj",
     school: "University of Phoenix",
-    date: "2022 - 2024",
-    degree: "Bachelors of Science, Computer Science",
-    // eduLink: "https://example.com/link1", // Replace with your actual link
+    date: "2024 - 2025",
+    degree: "Master of Information Systems",
   },
   {
     id: 1,
-    img: "https://osds.charlotte.edu/wp-content/uploads/sites/511/2023/06/Big-C-Circle.png",
-    school: "University of North Carolina at Charlotte",
-    date: "2020 - 2022",
-    // degree: "Bachelor of Science in Computer Science, Software Engineering",
+    img: "https://yt3.googleusercontent.com/ytc/APkrFKYpZIQZcY08KJuX7wVxxpzl1JBWparAN9_hcNJ_eA=s900-c-k-c0x00ffffff-no-rj",
+    school: "University of Phoenix",
+    date: "2022 - 2024",
+    degree: "Bachelors of Science, Computer Science",
   },
   {
     id: 2,
-    img: "https://images.credly.com/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/twitter_thumb_201604_image.png",
-    school: "AWS Certified Cloud Practitioner",
-    date: "2023 - 2026",
-    degree: "Amazon Web Services Training and Certification",
-    eduLink:
-      "https://www.credly.com/badges/5aa337fd-7d84-4ec9-b0aa-f681f833c524/public_url", // Replace with your actual link
+    img: "https://osds.charlotte.edu/wp-content/uploads/sites/511/2023/06/Big-C-Circle.png",
+    school: "University of North Carolina at Charlotte",
+    date: "2020 - 2022",
+    degree: "Bachelor of Science in Computer Science, Software Engineering",
   },
 ];
 
