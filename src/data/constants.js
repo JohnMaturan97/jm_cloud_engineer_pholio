@@ -2,7 +2,7 @@ export const Bio = {
   name: "John Maturan",
   roles: ["Cloud Engineer", "Cloud DB ENG", "Cloud-Native Dev"],
   description:
-    "Accomplished Cloud Engineer with specialized expertise in Cloud Database Engineering and a solid foundation in project management. Passionate about technological innovation, John excels in leveraging advanced AWS services, cloud infrastructure, networking, and security solutions in team-oriented environments.",
+    "Accomplished Cloud Engineer with specialized expertise in Cloud Database Engineering and a solid foundation in Full-Stack Development and Project Management. Passionate about technological innovation, John excels in leveraging advanced AWS services, cloud infrastructure, cloud-native development, networking, and security solutions in team-oriented environments.",
   github: "https://github.com/JohnMaturan97",
   resume:
     "https://drive.google.com/file/d/1GYPgMuTklj3p1lz8kg3wmiutHv92ic-c/view?usp=sharing",
