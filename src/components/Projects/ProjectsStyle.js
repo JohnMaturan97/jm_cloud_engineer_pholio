@@ -1,6 +1,36 @@
 import styled from 'styled-components';
 import _default from '../../themes/default';
 
+export const LoadMoreButton = styled.button`
+    padding: 10px 20px;
+    background-color: ${({ theme }) => theme.primary}; // Primary theme color for background
+    color: white; // White text for contrast
+    border: none;
+    border-radius: 8px;
+    font-size: clamp(14px, 2.5vw, 16px); // Dynamic scaling based on viewport width
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 100%; // Full width on smaller screens
+    max-width: 200px; // Maximum width to maintain button proportion on larger screens
+    margin: 20px auto 0 auto; // Top margin increased, bottom margin set to 0
+
+    &:hover {
+        background-color: ${({ theme }) => theme.primary + 8}; // Lighten background on hover
+        transform: translateY(-2px); // Slight raise effect on hover
+    }
+
+    &:active {
+        transform: translateY(1px); // Depress effect when clicked
+    }
+
+    @media (max-width: 768px) {
+        padding: 8px 16px;
+        font-size: 14px; // Smaller font size for smaller screens
+        margin: 16px auto 0 auto; // Adjusted top margin for smaller screens, bottom margin still 0
+    }
+`;
+
 export const Container = styled.div`
     background: linear-gradient(343.07deg, rgba(132, 59, 206, 0.06) 5.71%, rgba(132, 59, 206, 0) 64.83%);
     display: flex;
@@ -20,7 +50,7 @@ export const Wrapper = styled.div`
     flex-direction: column;
     width: 100%;
     max-width: 1350px;
-    padding: 10px 0px 100px 0;
+    padding: 10px 0px 70px 0;
     gap: 12px;
     @media (max-width: 960px) {
         flex-direction: column;
