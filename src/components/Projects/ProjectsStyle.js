@@ -127,7 +127,7 @@ export const CardContainer = styled.div`
     gap: 28px;
     flex-wrap: wrap;
     @media (min-width: 960px) {
-        display: grid;
+        display: flex;
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
         grid-gap: 32px;
     }

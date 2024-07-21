@@ -50,20 +50,17 @@ const Title = styled.div`
 `;
 
 const Desc = styled.div`
-  font-size: 18px;
+  font-size: clamp(15px, 2.5vw, 18px); // Dynamically adjusts between 15px and 18px based on viewport width
   text-align: center;
-  max-width: 600px;
-  color: ${({ theme }) => theme.text_secondary};
-  @media (max-width: 768px) {
-    margin-top: 12px;
-    font-size: 16px;
-  }
+  max-width: 600px; // Maintains maximum width for readability
+  color: ${({ theme }) => theme.text_secondary}; // Uses theme for consistent styling
+  margin: 20px auto 0 auto; // Centers the description and provides vertical spacing only at the top
+  padding: 0 10px; // Provides horizontal padding to prevent text from touching the container edges
+  line-height: 1.6; // Ensures proper line spacing for readability
 
-  @media (max-width: 500px) {
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-top: 12px;
-    font-size: 15px;
+  @media (max-width: 768px) {
+    margin-top: 12px; // Ensures sufficient space above the description in smaller viewports
+    margin-bottom: 0; // Removes bottom margin for smaller screens
   }
 `;
 
