@@ -43,14 +43,13 @@ export const Container = styled.div`
 `;
 
 export const Wrapper = styled.div`
-    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
     width: 100%;
     max-width: 1350px;
-    padding: 10px 0px 70px 0;
+    padding: 10px 20px 70px;
     gap: 12px;
     @media (max-width: 960px) {
         flex-direction: column;
@@ -71,12 +70,17 @@ margin-top: 20px;
 
 export const Desc = styled.div`
     font-size: 18px;
-    text-align: center;
+    text-align: justify;
     max-width: 600px;
     color: ${({ theme }) => theme.text_secondary};
+    margin: 20px auto 5px auto;
+    padding: 0 20px;
+    line-height: 1.6;
+
     @media (max-width: 768px) {
-        margin-top: 12px;
         font-size: 16px;
+        margin: 20px 10px 5px 10px;
+        padding: 0 15px;
     }
 `;
 
@@ -122,14 +126,9 @@ export const CardContainer = styled.div`
     align-items: center;
     gap: 28px;
     flex-wrap: wrap;
-    // display: grid;
-    // grid-template-columns: repeat(3, 1fr);
-    // grid-gap: 32px;
-    // grid-auto-rows: minmax(100px, auto);
-    // @media (max-width: 960px) {
-    //     grid-template-columns: repeat(2, 1fr);
-    // }
-    // @media (max-width: 640px) {
-    //     grid-template-columns: repeat(1, 1fr);
-    // }
+    @media (min-width: 960px) {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-gap: 32px;
+    }
 `;
