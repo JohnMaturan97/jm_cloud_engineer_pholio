@@ -2,7 +2,7 @@ export const Bio = {
   name: "John Maturan",
   roles: ["Cloud Engineer", "Cloud DB ENG", "Cloud-Native Dev"],
   description:
-    "Accomplished Cloud Engineer with specialized expertise in Cloud Database Engineering and a solid foundation in Full-Stack Development and Project Management. Passionate about technological innovation, John excels in leveraging advanced AWS services, cloud infrastructure, cloud-native development, networking, and security solutions in team-oriented environments.",
+    "Accomplished Cloud Engineer with specialized expertise in Cloud Database Engineering and a solid foundation in Full-Stack Development and Project Management. Passionate about technological innovation, John excels at leveraging cloud-based services, cloud infrastructure, networking, and security solutions in team-oriented environments.",
   github: "https://github.com/JohnMaturan97",
   resume:
     "https://drive.google.com/file/d/1GYPgMuTklj3p1lz8kg3wmiutHv92ic-c/view?usp=sharing",
@@ -18,11 +18,13 @@ export const skills = [
     skills: [
       {
         name: "EC2",
-        image: "https://static-00.iconduck.com/assets.00/aws-ec2-icon-1696x2048-nhw31ife.png",
+        image:
+          "https://static-00.iconduck.com/assets.00/aws-ec2-icon-1696x2048-nhw31ife.png",
       },
       {
         name: "Lambda",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Amazon_Lambda_architecture_logo.svg/1200px-Amazon_Lambda_architecture_logo.svg.png",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Amazon_Lambda_architecture_logo.svg/1200px-Amazon_Lambda_architecture_logo.svg.png",
       },
       {
         name: "VPC",
@@ -31,23 +33,28 @@ export const skills = [
       },
       {
         name: "S3",
-        image: "https://upload.wikimedia.org/wikipedia/commons/b/bc/Amazon-S3-Logo.svg",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/b/bc/Amazon-S3-Logo.svg",
       },
       {
         name: "IAM",
-        image: "https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/aws-cloud-security/control-access-with-aws-identity-and-access-management/images/3d5ecfeab35e8dfc1eb781f7880fafc9_99-c-15-ccc-fe-5-e-4-d-8-f-bcfc-193197-b-9-dc-7-b.png",
+        image:
+          "https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/aws-cloud-security/control-access-with-aws-identity-and-access-management/images/3d5ecfeab35e8dfc1eb781f7880fafc9_99-c-15-ccc-fe-5-e-4-d-8-f-bcfc-193197-b-9-dc-7-b.png",
       },
       {
         name: "Systems Manager",
-        image: "https://allcode.com/wp-content/uploads/2023/05/aws-systems-manager-logo.png",
+        image:
+          "https://assets.allcode.com/wp-content/uploads/2023/05/aws-systems-manager-logo.png",
       },
       {
         name: "DYNAMODB",
-        image: "https://static-00.iconduck.com/assets.00/aws-dynamodb-icon-1817x2048-1gi0rqbm.png",
+        image:
+          "https://static-00.iconduck.com/assets.00/aws-dynamodb-icon-1817x2048-1gi0rqbm.png",
       },
       {
         name: "RDS",
-        image: "https://seeklogo.com/images/A/aws-rds-relational-database-service-logo-99EA3E8EA4-seeklogo.com.png",
+        image:
+          "https://seeklogo.com/images/A/aws-rds-relational-database-service-logo-99EA3E8EA4-seeklogo.com.png",
       },
       {
         name: "AURORA",
@@ -55,11 +62,13 @@ export const skills = [
       },
       {
         name: "Route 53",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSUZJF0bwIukH7jWRTeYrJgLPy_HIDy6WwkxIn75Qgxj8ktPWErGI6FJ6LpOBfHjRkX5o&usqp=CAU",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSUZJF0bwIukH7jWRTeYrJgLPy_HIDy6WwkxIn75Qgxj8ktPWErGI6FJ6LpOBfHjRkX5o&usqp=CAU",
       },
       {
         name: "Cloudfront",
-        image: "https://seeklogo.com/images/A/aws-cloudfront-logo-D475098A98-seeklogo.com.png",
+        image:
+          "https://seeklogo.com/images/A/aws-cloudfront-logo-D475098A98-seeklogo.com.png",
       },
       {
         name: "API Gateway",
@@ -72,7 +81,8 @@ export const skills = [
       },
       {
         name: "CLOUDWATCH",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqKAosgVxDwiNya2ciiZUReyheG2XmJKDkopftg8_1dFbh0Y9WuYbmK65x6DIzpAxcXDw&usqp=CAU",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqKAosgVxDwiNya2ciiZUReyheG2XmJKDkopftg8_1dFbh0Y9WuYbmK65x6DIzpAxcXDw&usqp=CAU",
       },
       {
         name: "CLOUDTRAIL",
@@ -81,7 +91,8 @@ export const skills = [
       },
       {
         name: "TERRAFORM",
-        image: "https://miro.medium.com/v2/resize:fit:400/1*lG-hTnKrmpQO306772jGpg.png",
+        image:
+          "https://miro.medium.com/v2/resize:fit:400/1*lG-hTnKrmpQO306772jGpg.png",
       },
       {
         name: "CLOUDFORMATION",
@@ -90,11 +101,13 @@ export const skills = [
       },
       {
         name: "REDSHIFT",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Amazon-Redshift-Logo.svg/109px-Amazon-Redshift-Logo.svg.png",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Amazon-Redshift-Logo.svg/109px-Amazon-Redshift-Logo.svg.png",
       },
       {
         name: "DMS",
-        image: "https://www.gliffy.com/sites/default/files/image/2020-06/AWS-Database-Migration-Service_dark-bg.png",
+        image:
+          "https://www.gliffy.com/sites/default/files/image/2020-06/AWS-Database-Migration-Service_dark-bg.png",
       },
       // {
       //   name: "",
@@ -127,11 +140,13 @@ export const skills = [
       },
       {
         name: "SNS",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5laaZl1Abk6wY-uDlDXIMj-sSLev01gvAQ59iPQFmmg&s",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5laaZl1Abk6wY-uDlDXIMj-sSLev01gvAQ59iPQFmmg&s",
       },
       {
         name: "SQS",
-        image: "https://cloud-cdn.safe.com/fmehub/fmepackageversion/safe/amazon-sqs/item-logo/1693441586.png",
+        image:
+          "https://cloud-cdn.safe.com/fmehub/fmepackageversion/safe/amazon-sqs/item-logo/1693441586.png",
       },
       {
         name: "X-RAY",
@@ -144,7 +159,8 @@ export const skills = [
       },
       {
         name: "EventBridge",
-        image: "https://coralogix.com/wp-content/uploads/2022/08/EventBridge_large.png",
+        image:
+          "https://coralogix.com/wp-content/uploads/2022/08/EventBridge_large.png",
       },
       {
         name: "Secrets Manager",
@@ -156,7 +172,8 @@ export const skills = [
       },
       {
         name: "CDK",
-        image: "https://miro.medium.com/v2/resize:fit:512/1*jJtxMgwr3HW-HHXIqj67Hw.png",
+        image:
+          "https://miro.medium.com/v2/resize:fit:512/1*jJtxMgwr3HW-HHXIqj67Hw.png",
       },
       {
         name: "SAM",
@@ -165,23 +182,28 @@ export const skills = [
       },
       {
         name: "K8s",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/1200px-Kubernetes_logo_without_workmark.svg.png",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/1200px-Kubernetes_logo_without_workmark.svg.png",
       },
       {
         name: "Docker",
-        image: "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-512.png",
+        image:
+          "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-512.png",
       },
       {
         name: "Jenkins",
-        image: "https://toppng.com/uploads/preview/jenkins-logo-11609365847mufysaivph.png",
+        image:
+          "https://toppng.com/uploads/preview/jenkins-logo-11609365847mufysaivph.png",
       },
       {
         name: "Ansible",
-        image: "https://banner2.cleanpng.com/20180423/spw/kisspng-ansible-openshift-red-hat-github-management-sina-weibo-5add9d1f5886d4.2575405615244731193626.jpg",
+        image:
+          "https://banner2.cleanpng.com/20180423/spw/kisspng-ansible-openshift-red-hat-github-management-sina-weibo-5add9d1f5886d4.2575405615244731193626.jpg",
       },
       {
         name: "SonarQube",
-        image: "https://micro-tech.com.vn/wp-content/uploads/2022/01/sonarQ.png",
+        image:
+          "https://micro-tech.com.vn/wp-content/uploads/2022/01/sonarQ.png",
       },
       {
         name: "Datadog",
@@ -192,6 +214,11 @@ export const skills = [
   {
     title: "Certifications & Badges",
     skills: [
+      {
+        name: "SOA-C02",
+        image:
+          "https://images.credly.com/size/340x340/images/f0d3fbb9-bfa7-4017-9989-7bde8eaf42b1/image.png",
+      },
       {
         name: "DBS-C01",
         image:
@@ -468,33 +495,137 @@ export const projects = [
     id: 6,
     title: "vpc_landing_zone",
     // date: "Jun 2023 - Jul 2023",
-    description: "This project sets up a highly available and secure AWS VPC Landing Zone using Terraform, featuring multiple Availability Zones, public and private subnets, NAT gateways, Elastic IPs, and an Internet gateway.",
-    image: "https://miro.medium.com/v2/resize:fit:1200/1*V8LxF8pa1Iqs7jKJCbKC9Q.jpeg",
-    tags: ["VPC", "AZs", "Subnets", "Route Tables", "NAT Gateways", "Elastic IPs", "Internet Gateway", "Terraform"],
+    description:
+      "This project sets up a highly available and secure AWS VPC Landing Zone using Terraform, featuring multiple Availability Zones, public and private subnets, NAT gateways, Elastic IPs, and an Internet gateway.",
+    image:
+      "https://miro.medium.com/v2/resize:fit:1200/1*V8LxF8pa1Iqs7jKJCbKC9Q.jpeg",
+    tags: [
+      "VPC",
+      "AZs",
+      "Subnets",
+      "Route Tables",
+      "NAT Gateways",
+      "Elastic IPs",
+      "Internet Gateway",
+      "Terraform",
+    ],
     category: "DB engineer",
-    github: "https://github.com/JohnMaturan97/Cloud_Database_Engineering_Projects/tree/master/vpc_landing_zone",
-    webapp: "https://doc.clickup.com/9014090236/p/h/8cmg6fw-6234/3fd4bd487be2165",
+    github:
+      "https://github.com/JohnMaturan97/Cloud_Database_Engineering_Projects/tree/master/vpc_landing_zone",
+    webapp:
+      "https://doc.clickup.com/9014090236/p/h/8cmg6fw-6234/3fd4bd487be2165",
   },
   {
     id: 7,
     title: "ec2_rds_replica",
     // date: "Jun 2023 - Jul 2023",
-    description: "This project automates the setup of an RDS instance with a read replica and standby instance across multiple Availability Zones (AZs) within a private subnet using Terraform. Additionally, it provisions an EC2 instance within a public subnet, streamlining deployment and management processes for efficient infrastructure setup.",
-    image: "https://miro.medium.com/v2/resize:fit:1200/1*V8LxF8pa1Iqs7jKJCbKC9Q.jpeg",
-    tags: ["RDS", "Read-Replica","Multi-AZ","AZs","EC2","Subnets","NAT Gateways"],
+    description:
+      "This project automates the setup of an RDS instance with a read replica and standby instance across multiple Availability Zones (AZs) within a private subnet using Terraform. Additionally, it provisions an EC2 instance within a public subnet, streamlining deployment and management processes for efficient infrastructure setup.",
+    image:
+      "https://avabodha.in/content/images/2021/10/ec2-.jpg",
+    tags: [
+      "RDS",
+      "Read-Replica",
+      "Multi-AZ",
+      "AZs",
+      "EC2",
+      "Subnets",
+      "NAT Gateways",
+    ],
     category: "DB engineer",
-    github: "https://github.com/JohnMaturan97/Cloud_Database_Engineering_Projects/tree/master/ec2_rds_replica",
-    webapp: "https://doc.clickup.com/9014090236/p/h/8cmg6fw-6254/32bf035dfe55dd8",
+    github:
+      "https://github.com/JohnMaturan97/Cloud_Database_Engineering_Projects/tree/master/ec2_rds_replica",
+    webapp:
+      "https://doc.clickup.com/9014090236/p/h/8cmg6fw-6254/32bf035dfe55dd8",
   },
   {
     id: 8,
     title: "DynamoFluxAPI",
     // date: "Jun 2023 - Jul 2023",
-    description: "This project entails constructing a REST API employing AWS Lambda, API Gateway, and DynamoDB through Terraform, streamlining deployment and management processes.",
-    image: "https://miro.medium.com/v2/resize:fit:1200/1*V8LxF8pa1Iqs7jKJCbKC9Q.jpeg",
+    description:
+      "This project entails constructing a REST API employing AWS Lambda, API Gateway, and DynamoDB through Terraform, streamlining deployment and management processes.",
+    image:
+      "https://miro.medium.com/v2/resize:fit:1200/1*KV0vJ-3yBuBNmmB2L8AHqw.png",
     tags: ["API Gateway", "Lambda", "DynamoDB", "IAM", "CloudWatch"],
     category: "cloud engineer",
-    github: "https://github.com/JohnMaturan97/Cloud_Engineering_Projects/tree/master/DynamoFluxAPI",
-    webapp: "https://doc.clickup.com/9014090236/p/h/8cmg6fw-6214/0a2e45507966290",
+    github:
+      "https://github.com/JohnMaturan97/Cloud_Engineering_Projects/tree/master/DynamoFluxAPI",
+    webapp:
+      "https://doc.clickup.com/9014090236/p/h/8cmg6fw-6214/0a2e45507966290",
+  },
+  {
+    id: 9,
+    title: "Pegasus ecommerce App",
+    description: "Ecommerce Application",
+    image:
+      "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExODV2bzd3ZHg2Y3lyNzlrdDdieXkwNjFlbTU3MnhhZXh6aWpybGIxZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5h4DUhhROpXFoRMBmN/giphy.gif",
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind",
+      "Daisyui",
+      "MongoDB",
+      "Carousel",
+      "Swipe",
+      "Toast",
+    ],
+    category: "web app",
+    github: "https://github.com/JohnMaturan97/pegasus-ecommerce-app",
+    webapp: "https://pegasus-ecommerce-app.vercel.app/",
+  },  
+  {
+    id: 10,
+    title: "GCP CloudSQL Terraform",
+    description: "GCP CloudSQL using Terraform",
+    image:
+      "https://miro.medium.com/v2/resize:fit:700/1*wVfnIRL2g8D39z7-KATBQw.png",
+    tags: [
+      "CloudSQL",
+      "CloudSQL Admin API",
+      "GCP",     
+      "Cloud Resource Manager API",
+      "Terraform",
+    ],
+    category: "DB engineer",
+    github: "https://github.com/JohnMaturan97/Cloud_Database_Engineering_Projects/tree/master/gcp/cloud_sql_pgsql",
+    webapp: "https://doc.clickup.com/9014090236/p/h/8cmg6fw-9994/104e96c2b399214",
+  },  
+  {
+    id: 11,
+    title: "AWS Redshift Terraform Template",
+    description: "Provisioning an AWS Redshift Cluster using Terraform modules",
+    image: "https://miro.medium.com/v2/resize:fit:1024/1*ndb6Oiga_4ghOJm2S_f_Yw.png",
+    tags: [
+      "TFE Cloud",
+      "TFE Registry",
+      "TFE Modules",
+      "Github",
+      "Redshift",
+      "AWS",
+      "VPC",
+      "SG",
+    ],
+    category: "DB engineer",
+    github: "https://github.com/JohnMaturan97/Cloud_Database_Engineering_Projects/tree/master/aws/aws-redshift-database-template",
+    webapp: "https://doc.clickup.com/9014090236/p/h/8cmg6fw-10014/67adfd10e5c932f",
+  },
+  {
+    id: 12,
+    title: "ROBOPAL🤖",
+    description: "Full Stack Flask React Application",
+    image: "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDF1am1jODVmNWFmeTU1cTU0NXUwbTJrMXd6ZHRpODIzZGIwMmF3MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vfaswEZ4zzrvasx4nQ/giphy.gif",
+    tags: [
+      "Python",
+      "React",
+      "Flask",
+      "SQLAlchemy",
+      "SQLite",
+      "Chakra UI",
+      "React-Icons",
+      "CORS",
+    ],
+    category: "web app",
+    github: "https://github.com/JohnMaturan97/flask_react_robo_friend_app",
+    webapp: "https://flask-react-robo-friend-app.onrender.com/",
   },
 ];
