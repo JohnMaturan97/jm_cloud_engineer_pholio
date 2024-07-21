@@ -6,7 +6,6 @@ import {
   Container,
   Desc,
   Divider,
-  LoadMoreButton,
   Title,
   ToggleButton,
   ToggleButtonGroup,
@@ -16,34 +15,22 @@ import {
 const Projects = ({ openModal, setOpenModal }) => {
   const [projects, setProjects] = useState([]);
   const [toggle, setToggle] = useState("all");
-  const [visibleCardCount, setVisibleCardCount] = useState(6);
 
   useEffect(() => {
+    let filteredProjects = [];
     if (toggle === 'all') {
-      // Load only recent projects (id > 5) initially
-      const recentProjects = initialProjects.filter(project => project.id > 5);
-      setProjects(recentProjects);
+      // For 'All' tab: Load projects with id > 5 and sort them in descending order by id
+      filteredProjects = initialProjects
+        .filter(project => project.id > 5)
+        .sort((a, b) => b.id - a.id);
     } else {
-      // For other categories, exclude the specific project with id 5
-      setProjects(initialProjects.filter(project => project.category === toggle && project.id !== 5));
+      // For other categories: Load all projects of the category, no filtering based on id
+      filteredProjects = initialProjects
+        .filter(project => project.category === toggle)
+        .sort((a, b) => b.id - a.id);  // Sorting by descending id for consistency
     }
+    setProjects(filteredProjects);
   }, [toggle]);
-
-  const toggleCardVisibility = () => {
-    setVisibleCardCount(visibleCardCount + 6);
-  };
-
-  // Function to conditionally inject the project with id 5 at the 6th position for 'All' tab
-  const getProjectsWithFixed = () => {
-    const allProjects = [...projects];
-    if (toggle === 'all' && allProjects.length >= 5) {
-      const fixedProject = initialProjects.find(p => p.id === 5);
-      if (fixedProject) {
-        allProjects.splice(5, 0, fixedProject); // Injecting at the 6th position (index 5)
-      }
-    }
-    return allProjects;
-  };
 
   return (
     <Container id="projects">
@@ -74,15 +61,10 @@ const Projects = ({ openModal, setOpenModal }) => {
           </ToggleButton>
         </ToggleButtonGroup>
         <CardContainer>
-          {getProjectsWithFixed()
-            .slice(0, visibleCardCount)
-            .map((project) => (
-              <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal} />
-            ))}
+          {projects.map((project) => (
+            <ProjectCard key={project.id} project={project} openModal={openModal} setOpenModal={setOpenModal} />
+          ))}
         </CardContainer>
-        {getProjectsWithFixed().length > visibleCardCount && (
-          <LoadMoreButton onClick={toggleCardVisibility}>Load More</LoadMoreButton>
-        )}
       </Wrapper>
     </Container>
   );
