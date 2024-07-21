@@ -12,25 +12,39 @@ import {
   Wrapper
 } from "./ProjectsStyle";
 
+const specialProject = {
+  id: 5,
+  title: "Github",
+  description: "Open Source Projects",
+  image: "https://media.giphy.com/media/ad4UeX1pJp5grZnJGy/giphy.gif",
+  tags: ["Git Repositories"],
+  category: "all",
+  github: "https://github.com/JohnMaturan97",
+  webapp: "https://github.com/JohnMaturan97",
+};
+
 const Projects = ({ openModal, setOpenModal }) => {
   const [projects, setProjects] = useState([]);
   const [toggle, setToggle] = useState("all");
 
   useEffect(() => {
     let filteredProjects = [];
+
     if (toggle === 'all') {
-      // For 'All' tab: Load projects with id > 5 and sort them in descending order by id
-      filteredProjects = initialProjects
-        .filter(project => project.id > 5)
-        .sort((a, b) => b.id - a.id);
+      filteredProjects = initialProjects.filter(project => project.id > 5);
     } else {
-      // For other categories: Load all projects of the category, no filtering based on id
-      filteredProjects = initialProjects
-        .filter(project => project.category === toggle)
-        .sort((a, b) => b.id - a.id);  // Sorting by descending id for consistency
+      filteredProjects = initialProjects.filter(project => project.category === toggle && project.id !== 5);
     }
-    // Slice the filtered projects to only include up to 6 items
-    setProjects(filteredProjects.slice(0, 6));
+
+    filteredProjects.sort((a, b) => b.id - a.id);
+
+    // Handling the special project insertion based on the number of projects
+    if (toggle !== 'all') {
+      const position = Math.min(5, filteredProjects.length); // Determine where to place the special project
+      filteredProjects.splice(position, 0, specialProject); // Insert special project at the calculated position
+    }
+
+    setProjects(filteredProjects.slice(0, 6)); // Always limit to max 6 projects displayed
   }, [toggle]);
 
   return (
@@ -62,7 +76,7 @@ const Projects = ({ openModal, setOpenModal }) => {
           </ToggleButton>
         </ToggleButtonGroup>
         <CardContainer>
-          {projects.map((project) => (
+          {projects.map((project, index) => (
             <ProjectCard key={project.id} project={project} openModal={openModal} setOpenModal={setOpenModal} />
           ))}
         </CardContainer>
