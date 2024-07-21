@@ -29,7 +29,8 @@ const Projects = ({ openModal, setOpenModal }) => {
         .filter(project => project.category === toggle)
         .sort((a, b) => b.id - a.id);  // Sorting by descending id for consistency
     }
-    setProjects(filteredProjects);
+    // Slice the filtered projects to only include up to 6 items
+    setProjects(filteredProjects.slice(0, 6));
   }, [toggle]);
 
   return (
